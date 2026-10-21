@@ -1,0 +1,16 @@
+---
+title: "How will we use Zotero?"
+editor_options: 
+  chunk_output_type: console
+---
+
+## {background-image="images/p1.svg" background-size="contain"}
+## {background-image="images/p2.svg" background-size="contain"}
+## {background-image="images/p3.svg" background-size="contain"}
+## {background-image="images/p4.svg" background-size="contain"}
+## {background-image="images/p5.svg" background-size="contain"}
+## {background-image="images/p6.svg" background-size="contain"}
+## {background-image="images/p7.svg" background-size="contain"}
+
+## How to find papers?
+They can be found with a **key**, by searching a DOI, etc. You search them in the built in search bar.

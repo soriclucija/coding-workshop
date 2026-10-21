@@ -1,0 +1,7 @@
+/* Path is relative to this file (slides/), so it points to ma-coding/fonts */
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

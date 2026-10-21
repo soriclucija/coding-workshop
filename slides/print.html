@@ -1,0 +1,9 @@
+<script>
+// Opened with ?print-pdf (from the "Download PDF" button): wait for the
+// print layout to finish, then open the browser's print dialog.
+if (/print-pdf/i.test(window.location.search)) {
+  window.addEventListener("load", function () {
+    setTimeout(function () { window.print(); }, 1000);
+  });
+}
+</script>

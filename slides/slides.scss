@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+$navy: #002f59;
+$gold: #ae6e00;
+
+$font-family-sans-serif: "Lato", sans-serif;
+$body-color: $navy;
+$presentation-heading-color: $navy;
+$presentation-heading-font: $font-family-sans-serif;
+$link-color: $gold;
+
+// Smaller body text (default is 40px). Heading sizes are raised to
+// compensate, so titles stay exactly as big as before.
+$presentation-font-size-root: 32px;
+$presentation-h1-font-size: 3.125em;   // = 100px, as before
+$presentation-h2-font-size: 2em;       // = 64px, as before
+$presentation-h3-font-size: 1.625em;   // = 52px, as before
+
+/*-- scss:rules --*/
+.reveal strong,
+.reveal b {
+  color: $gold;
+}
+
+.reveal .slide-number {
+  color: $navy;
+  background-color: transparent;
+  font-size: 0.6em;
+}
+
+// More space between the slide title and the content below it
+.reveal .slides section h2 {
+  margin-bottom: 0.8em;
+}
+
+.reveal img.r-stretch {
+  object-fit: contain;
+}

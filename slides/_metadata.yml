@@ -1,0 +1,9 @@
+# Shared settings for every deck in this folder.
+# Each deck only needs a title in its own front matter.
+format:
+  revealjs:
+    theme: [default, slides.scss]
+    css: slides.css
+    slide-number: c/t
+    menu: false
+    include-after-body: print.html
